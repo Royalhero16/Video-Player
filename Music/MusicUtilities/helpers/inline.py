@@ -46,6 +46,14 @@ def others_markup(videoid, user_id):
             ),
             InlineKeyboardButton(text="🗑️ ᴄʟᴏꜱᴇ", callback_data=f"close2"),
         ],
+        [
+            InlineKeyboardButton(
+                text="🧸 𝐁𝐑𝐎𝐓𝐇𝐄𝐑 🧸", url=f"t.me/royal_king365"
+            ),
+            InlineKeyboardButton(
+                text="🍁 𝐎𝐖𝐍𝐄𝐑 🍁", url=f"t.me/iamCuteHero"
+            )
+        ],
     ]
     return buttons
 
@@ -58,6 +66,14 @@ play_keyboard = InlineKeyboardMarkup(
             InlineKeyboardButton("⏯️", callback_data="skipvc"),
             InlineKeyboardButton("❌", callback_data="stopvc"),
         ],
+        [
+            InlineKeyboardButton(
+                text="🧸 𝐁𝐑𝐎𝐓𝐇𝐄𝐑 🧸", url=f"t.me/royal_king365"
+            ),
+            InlineKeyboardButton(
+                text="🍁 𝐎𝐖𝐍𝐄𝐑 🍁", url=f"t.me/iamCuteHero"
+            )
+        ],
         [InlineKeyboardButton("🗑️ ᴄʟᴏꜱᴇ", callback_data="close")],
     ]
 )
@@ -71,6 +87,14 @@ def audio_markup(videoid, user_id):
             InlineKeyboardButton(text="⏯️", callback_data=f"skipvc2"),
             InlineKeyboardButton(text="❌", callback_data=f"stopvc2"),
         ],
+        [
+            InlineKeyboardButton(
+                text="🧸 𝐁𝐑𝐎𝐓𝐇𝐄𝐑 🧸", url=f"t.me/royal_king365"
+            ),
+            InlineKeyboardButton(
+                text="🍁 𝐎𝐖𝐍𝐄𝐑 🍁", url=f"t.me/iamCuteHero"
+            )
+        ],
         [InlineKeyboardButton(text="🗑️ ᴄʟᴏꜱᴇ", callback_data="close2")],
     ]
     return buttons
@@ -174,7 +198,7 @@ start_keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "📚 ᴄᴏᴍᴍᴀɴᴅꜱ​ ", url="https://telegra.ph/𝗕ooo--‌ᴀꜰᴋ-ᴏꜰꜰʟɪɴᴇ-01-03"
+                "📚 ᴄᴏᴍᴍᴀɴᴅꜱ​ ", url="https://te.legra.ph/file/350a6821dadecac04f109.jpg"
             )
         ],
         [InlineKeyboardButton("🗑️ ᴄʟᴏꜱᴇ", callback_data="close2")],
